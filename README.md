@@ -1,10 +1,11 @@
-TryHackMe Room: [Room Name] Official Write-Up
+TryHackMe Room: vulnerabilitiess Official Write-Up
+
 Introduction
 
-Welcome to the [Room Name]! This room is designed to test your skills in identifying and exploiting web vulnerabilities, including Cross-Site Scripting (XSS) and Path Traversal. This write-up serves as a guide for solving the room while understanding the underlying principles of each vulnerability.
+Welcome to the vulnerabilitiess! This room is designed to test your skills in identifying and exploiting web vulnerabilities, including Cross-Site Scripting (XSS) and Path Traversal. This write-up serves as a guide for solving the room while understanding the underlying principles of each vulnerability.
+
 Task 1: Cross-Site Scripting (XSS)
 Scenario
-
 The web application includes a search feature vulnerable to XSS. Malicious actors can exploit this vulnerability to inject scripts, leading to session hijacking, defacement, or other malicious activities.
 Steps to Exploit
 
@@ -29,8 +30,8 @@ Exploit Further:
         Recommend input sanitization and encoding outputs.
 
 Task 2: Path Traversal
-Scenario
 
+Scenario
 The application exposes a file download feature without proper validation of the file paths. This allows attackers to traverse directories and access unauthorized files on the server.
 Steps to Exploit
 
